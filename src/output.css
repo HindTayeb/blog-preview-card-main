@@ -321,6 +321,34 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+  .hover\:text-yellow {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-yellow);
+      }
+    }
+  }
+  .focus\:text-yellow {
+    &:focus {
+      color: var(--color-yellow);
+    }
+  }
+  .active\:text-yellow {
+    &:active {
+      color: var(--color-yellow);
+    }
+  }
+  .hover\:focus\:active\:text-yellow {
+    &:hover {
+      @media (hover: hover) {
+        &:focus {
+          &:active {
+            color: var(--color-yellow);
+          }
+        }
+      }
+    }
+  }
 }
 @font-face {
   font-family: "Figtree";
