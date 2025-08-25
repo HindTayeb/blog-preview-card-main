@@ -1,20 +1,33 @@
 @import "tailwindcss";
+@font-face {
+  font-family: "Figtree";
+  src: url("../assets/fonts/static/Figtree-Medium.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 
 @theme {
   --color-yellow: #f4d04e;
   --color-grey-950: #111111;
   --color-grey-500: #6b6b6b;
 
-  --spacing-300: 24px;
+  --spacing-200: 24px;
   --spacing-150: 12px;
   --spacing-100: 8px;
   --spacing-50: 4px;
 
+  --radius-xs: 4px;
+
   --font-weight-500: 500;
   --font-weight-800: 800;
 
+  --font-figtree: "Figtree";
+
+  --text-l: 24px;
   --text-m: 16px;
   --text-s: 14px;
+
+  --leading-150: 150%;
 }
 
 .attribution {
