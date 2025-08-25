@@ -38,4 +38,6 @@
   --text-s: 14px;
 
   --leading-150: 150%;
+
+  --shadow-card: 8px 8px 0 0 #000;
 }
