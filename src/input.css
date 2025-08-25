@@ -19,6 +19,7 @@
   --color-yellow: #f4d04e;
   --color-grey-950: #111111;
   --color-grey-500: #6b6b6b;
+  --color-link: hsl(228, 45%, 44%);
 
   --spacing-200: 24px;
   --spacing-150: 12px;
@@ -37,12 +38,4 @@
   --text-s: 14px;
 
   --leading-150: 150%;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
